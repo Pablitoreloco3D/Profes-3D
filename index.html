@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profes-3D</title>
+  <meta name="description" content="Docentes y referentes educativos de Bambu Lab que llevan la impresión 3D al aula y a la comunidad maker.">
+  <meta property="og:title" content="Profes-3D">
+  <meta property="og:description" content="Docentes y referentes educativos de Bambu Lab que llevan la impresión 3D al aula y a la comunidad maker.">
+  <meta property="og:image" content="images/share.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Urbanist', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Urbanist', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    .soft-gradient {
+      background: radial-gradient(60% 40% at 12% 50%, #FFD2BD 0%, transparent 70%), radial-gradient(60% 40% at 88% 50%, #CFE2FF 0%, transparent 70%), linear-gradient(to bottom, #FFFFFF 0%, #F1EEFF 50%, #FFFFFF 100%);
+    }
+  </style>
+</head>
+<body class="bg-white">
+  <main class="w-full bg-white text-[#1A1A1A] font-sans">
+
+    <!-- 1. Presentación -->
+    <section class="relative overflow-hidden bg-[#F5F5F5] pt-32 md:pt-0 md:min-h-[820px] flex flex-col md:flex-row md:items-center">
+      <div class="relative z-10 w-full max-w-[1200px] mx-auto px-6 xl:px-0 md:pb-16">
+        <div class="md:max-w-[640px]">
+          <span class="block font-mono text-sm text-gray-500 mb-6 tracking-wider uppercase">[ Profes-3D ]</span>
+          <h1 class="text-4xl md:text-6xl font-semibold md:font-medium tracking-tight mb-6">
+            Dos profes,<br>una misma pasión:<br>enseñar impresión 3D
+          </h1>
+          <p class="text-lg md:text-xl text-gray-600 leading-relaxed md:max-w-[500px]">
+            Docentes y referentes educativos de Bambu Lab que llevan la impresión 3D al aula y a la comunidad maker.
+          </p>
+        </div>
+      </div>
+      <div class="relative mt-8 md:mt-0 md:absolute md:inset-y-0 md:right-0 md:w-[56%]">
+        <img src="images/portada.webp" alt="Pablo y Diego, profesores de impresión 3D"
+          class="block w-full h-auto min-h-[280px] md:h-full object-cover md:object-[46%_50%]">
+        <div class="hidden md:block absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-[#F5F5F5] via-[#F5F5F5]/50 to-transparent"></div>
+        <div class="md:hidden absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-[#F5F5F5] to-transparent"></div>
+      </div>
+    </section>
+
+    <!-- 2. Perfiles -->
+    <section class="bg-white pt-[80px] pb-[40px] md:py-24 px-6 xl:px-0">
+      <div class="max-w-[1200px] mx-auto">
+        <div class="w-fit max-w-full mx-auto text-center mb-12">
+          <h2 class="text-3xl md:text-5xl font-semibold md:font-medium tracking-tight mb-4">Conocé a Diego y Pablo</h2>
+          <p class="w-0 min-w-full text-lg text-gray-600">
+            Dos docentes con recorridos distintos y un mismo objetivo: que más estudiantes aprendan haciendo.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6">
+
+          <article class="bg-[#F5F5F5] rounded-[32px] p-8 md:p-10 flex flex-col">
+            <img src="images/pablo.webp" alt="Pablo Melgarejo"
+              class="aspect-[4/3] w-full rounded-[24px] bg-[#E5E5E5] object-cover object-top mb-8">
+            <span class="font-mono text-sm text-gray-500">@profepablotic</span>
+            <h3 class="text-3xl font-medium tracking-tight mt-1 mb-4">Pablo Melgarejo</h3>
+            <p class="text-gray-600 leading-relaxed mb-6">
+              Docente e impulsor de la impresión 3D en el aula. Completar con su biografía completa y trayectoria.
+            </p>
+            <ul class="flex flex-wrap gap-1.5">
+              <li class="bg-white rounded-full px-3 py-1 text-xs text-gray-600 border border-black/5">Docente de NTICx / Tecnología de la Información</li>
+              <li class="bg-white rounded-full px-3 py-1 text-xs text-gray-600 border border-black/5">Referente Educativo 3D Bambu Lab</li>
+              <li class="bg-white rounded-full px-3 py-1 text-xs text-gray-600 border border-black/5">Computación, Robótica y Domótica</li>
+            </ul>
+          </article>
+
+          <article class="bg-[#F5F5F5] rounded-[32px] p-8 md:p-10 flex flex-col">
+            <img src="images/diego.webp" alt="Diego Carrasco"
+              class="aspect-[4/3] w-full rounded-[24px] bg-[#E5E5E5] object-cover object-top mb-8">
+            <span class="font-mono text-sm text-gray-500">@carrascofpd</span>
+            <h3 class="text-3xl font-medium tracking-tight mt-1 mb-4">Diego Carrasco</h3>
+            <p class="text-gray-600 leading-relaxed mb-6">
+              Facilitador pedagógico que lleva la tecnología digital y la impresión 3D a la enseñanza. Completar con su biografía completa y trayectoria.
+            </p>
+            <ul class="flex flex-wrap gap-1.5">
+              <li class="bg-white rounded-full px-3 py-1 text-xs text-gray-600 border border-black/5">Facilitador Pedagógico Digital</li>
+              <li class="bg-white rounded-full px-3 py-1 text-xs text-gray-600 border border-black/5">Referente Educativo Bambu Lab</li>
+              <li class="bg-white rounded-full px-3 py-1 text-xs text-gray-600 border border-black/5">Educador STEAM</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Propósito -->
+    <section class="soft-gradient pt-[40px] pb-[40px] md:py-24 px-6 xl:px-0">
+      <div class="max-w-[1200px] mx-auto">
+        <span class="block font-mono text-sm text-gray-500 mb-6 tracking-wider uppercase">[ Nuestro propósito ]</span>
+        <div class="grid md:grid-cols-[1.2fr_1fr] gap-10 md:gap-16 mb-14">
+          <h2 class="text-3xl md:text-5xl font-semibold md:font-medium tracking-tight">
+            Enseñar para<br>que aprender<br>sea hacer
+          </h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Creemos que la tecnología se aprende mejor con las manos. Por eso llevamos la impresión 3D al aula y a la comunidad, con una mirada pedagógica y cercana.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-4 md:gap-6">
+          <div class="bg-white rounded-[24px] p-6 md:p-8 border border-black/5 shadow-sm">
+            <span class="font-mono text-lg text-gray-400">01</span>
+            <h3 class="text-xl font-medium mt-3 mb-2">Aprender haciendo</h3>
+            <p class="text-[15px] text-gray-500 leading-relaxed">La impresión 3D convierte una idea en algo que se puede tocar, probar y mejorar en el aula.</p>
+          </div>
+          <div class="bg-white rounded-[24px] p-6 md:p-8 border border-black/5 shadow-sm">
+            <span class="font-mono text-lg text-gray-400">02</span>
+            <h3 class="text-xl font-medium mt-3 mb-2">Compartir lo que saben</h3>
+            <p class="text-[15px] text-gray-500 leading-relaxed">Formación, charlas y talleres para que más docentes se animen a incorporar la tecnología.</p>
+          </div>
+          <div class="bg-white rounded-[24px] p-6 md:p-8 border border-black/5 shadow-sm">
+            <span class="font-mono text-lg text-gray-400">03</span>
+            <h3 class="text-xl font-medium mt-3 mb-2">Formar comunidad</h3>
+            <p class="text-[15px] text-gray-500 leading-relaxed">Conectar a docentes, estudiantes y makers para que nadie aprenda solo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Software -->
+    <section class="bg-white pt-[40px] pb-[40px] md:py-24 px-6 xl:px-0">
+      <div class="max-w-[1200px] mx-auto">
+        <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+          <div>
+            <h3 class="text-3xl md:text-5xl font-semibold md:font-medium tracking-tight mb-6">Software<br>para la educación</h3>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Garabato3D es un software desarrollado en conjunto por Disain y los profesores Pablo Melgarejo y Diego Carrasco para acercar la impresión 3D a las aulas desde los primeros niveles de la educación. Es de uso público y de licencia gratuita, para que cualquier docente o institución pueda usarlo sin barreras y sumarlo a sus propuestas de enseñanza.
+            </p>
+            <p class="text-lg text-gray-600 leading-relaxed mt-4">
+              Para crearlo tomamos como punto de partida Doodle3D, una herramienta similar que convierte dibujos en modelos 3D listos para imprimir. A partir de esa idea, adaptamos la experiencia a las necesidades del aula y de las primeras edades, junto a docentes que la usan todos los días.
+            </p>
+          </div>
+          <img src="images/garabato3d.png" alt="Garabato 3D" loading="lazy"
+            class="w-full h-auto rounded-[24px] border border-black/10">
+        </div>
+        <div class="mt-14 md:mt-20 grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+          <img src="images/garabato3d-2.jpg" alt="Garabato 3D" loading="lazy"
+            class="w-full aspect-[1385/911] object-cover object-center rounded-[24px] border border-black/10 order-last md:order-first">
+          <div>
+            <h4 class="text-2xl md:text-3xl font-medium md:font-normal tracking-tight mb-4">Aprendizaje en niños</h4>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Con Garabato3D los niños dibujan a mano alzada y ven cómo su garabato se transforma en un objeto en 3D. Esa experiencia simple y lúdica les permite descubrir cómo se diseña y se fabrica, y se animan a probar, equivocarse y volver a intentarlo. Así, la impresión 3D se vuelve una herramienta de aprendizaje accesible desde las primeras edades.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Comunidad y eventos -->
+    <section class="soft-gradient pt-[40px] pb-[40px] md:py-24 px-6 xl:px-0">
+      <div class="max-w-[1200px] mx-auto">
+        <h2 class="text-3xl md:text-5xl font-semibold md:font-medium tracking-tight mb-4 text-center">Comunidad y eventos</h2>
+        <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto text-center">
+          Espacios donde comparten lo que saben<br>y construyen comunidad alrededor de la impresión 3D.
+        </p>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+          <div class="bg-white rounded-[20px] md:rounded-[24px] p-5 md:p-8 border border-black/5 shadow-sm">
+            <h3 class="text-base md:text-xl font-medium mb-2">COPAT3D</h3>
+            <p class="text-[13px] md:text-[15px] text-gray-500 leading-relaxed">Comunidad de práctica de impresión 3D.</p>
+          </div>
+          <div class="bg-white rounded-[20px] md:rounded-[24px] p-5 md:p-8 border border-black/5 shadow-sm">
+            <h3 class="text-base md:text-xl font-medium mb-2">eXperiencia 3D</h3>
+            <p class="text-[13px] md:text-[15px] text-gray-500 leading-relaxed">Encuentros y experiencias de impresión 3D.</p>
+          </div>
+          <div class="bg-white rounded-[20px] md:rounded-[24px] p-5 md:p-8 border border-black/5 shadow-sm">
+            <h3 class="text-base md:text-xl font-medium mb-2">Congreso 3D+Edu</h3>
+            <p class="text-[13px] md:text-[15px] text-gray-500 leading-relaxed">Impresión 3D aplicada a la educación.</p>
+          </div>
+          <div class="bg-white rounded-[20px] md:rounded-[24px] p-5 md:p-8 border border-black/5 shadow-sm">
+            <h3 class="text-base md:text-xl font-medium mb-2">Argentina Comic Con</h3>
+            <p class="text-[13px] md:text-[15px] text-gray-500 leading-relaxed">Presencia en eventos de cultura maker.</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 grid-rows-[repeat(2,minmax(0,1fr))] md:grid-cols-3 gap-4 md:gap-6 mt-12 h-[420px] md:h-[560px]">
+          <img src="images/BambuLabenCMD_015.webp" alt="Diego y Pablo presentando en el auditorio" loading="lazy"
+            class="w-full h-full object-cover rounded-[24px] col-span-2 row-span-2">
+          <img src="images/BambuLabenCMD_040.webp" alt="Diego explicando frente al público" loading="lazy"
+            class="w-full h-full object-cover rounded-[24px]">
+          <img src="images/BambuLabenCMD_066.webp" alt="Pablo mostrando piezas impresas en 3D" loading="lazy"
+            class="w-full h-full object-cover rounded-[24px]">
+        </div>
+        <p class="text-sm text-gray-500 mt-4">Charla «Impresión 3D, herramienta pedagógica», con los profes Diego Carrasco y Pablo Melgarejo.</p>
+      </div>
+    </section>
+
+    <!-- 6. Contacto -->
+    <section class="bg-white pt-[40px] pb-24 md:py-24 px-6 xl:px-0">
+      <div class="max-w-[1200px] mx-auto">
+        <div class="relative overflow-hidden bg-[#2B2B2B] text-white rounded-[32px] p-10 md:p-16 min-h-[360px] flex flex-col md:flex-row md:items-center justify-between gap-8">
+          <img src="images/BambuLabenCMD_082.webp" alt="Clase de impresión 3D con los profesores frente al público"
+            class="absolute inset-0 w-full h-full object-cover object-center">
+          <div class="absolute inset-y-0 left-0 w-full md:w-3/5 bg-gradient-to-r from-black via-black/75 to-transparent"></div>
+          <div class="relative">
+            <h2 class="text-3xl md:text-5xl font-semibold md:font-medium tracking-tight mb-3">Aprendé con ellos<br>impresión 3D paso a&nbsp;paso</h2>
+            <p class="text-gray-300 max-w-md">Seguilos para ver sus clases, proyectos y novedades.</p>
+          </div>
+          <div class="relative flex flex-wrap gap-3">
+            <a href="https://www.instagram.com/profepablotic" target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center rounded-full bg-white text-black px-6 py-3 font-medium hover:bg-gray-200 transition-colors">@profepablotic</a>
+            <a href="https://www.instagram.com/carrascofpd/" target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center rounded-full bg-white text-black px-6 py-3 font-medium hover:bg-gray-200 transition-colors">@carrascofpd</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
